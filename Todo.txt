@@ -1,0 +1,8 @@
+Todo:
+    -Spawn right room in right place;
+        add spacial rooms spawn.
+    -Set amount of rooms to spawn.
+    -Doors mechanic.
+    -spawn enemies.
+    -Camera mechanic.
+    -MiniMap
