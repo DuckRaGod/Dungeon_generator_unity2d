@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9c7c732d1f98547886235e93451948, type: 3}
+  m_Name: Room Pallate
+  m_EditorClassIdentifier: 
+  URDL:
+  - {fileID: 9128262705920321264, guid: 0ceb30754fffeb546bef55c4b70b02c9, type: 3}
+  U:
+  - {fileID: 5282371753397110713, guid: 99617f2be45449544a73529469ca5254, type: 3}
+  R:
+  - {fileID: 1745468387750354820, guid: f93bd7b6102c9b84997bb28eb69ff414, type: 3}
+  D:
+  - {fileID: 7328816278673395803, guid: 8acbdaea9e14560438993402bf2ea104, type: 3}
+  L:
+  - {fileID: 8967821910234915961, guid: 0e07aca5945a291488daff307eb0c4d3, type: 3}
+  RL:
+  - {fileID: 6251918792034796863, guid: c8671823d33d7d14c8185785ecc20fd9, type: 3}
+  UD:
+  - {fileID: 6422987258109380830, guid: b39da045ece02a7419b22c1503f1e9cd, type: 3}
+  UR:
+  - {fileID: 3477624456750122466, guid: 3d717b0f79e716d44b239bdbed05dcad, type: 3}
+  RD:
+  - {fileID: 7769196183670900441, guid: b265c3d5b8f5a62488edf8ff94507500, type: 3}
+  DL:
+  - {fileID: 6679620926894090787, guid: ec278b03bfb6f1f4a9b582a8cbf43361, type: 3}
+  LU:
+  - {fileID: 7032730680881514398, guid: 6c6ae5fe552e3c7418cca5f988c73e46, type: 3}
+  URD:
+  - {fileID: 8129479592570473177, guid: bae50fe4c72671f409c07b07165ea1d6, type: 3}
+  RDL:
+  - {fileID: 8777872424364034996, guid: a673ae2ca69356b4489651cddfef0c93, type: 3}
+  DLU:
+  - {fileID: 5325919696926255747, guid: 317159069ec951f48acc3aa74a315cd9, type: 3}
+  LUR:
+  - {fileID: 2220587633835455248, guid: 63448641fdb06284790af3f78020566d, type: 3}

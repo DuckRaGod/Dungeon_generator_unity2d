@@ -1,6 +1,0 @@
-Todo:
-    -Set amount of rooms to spawn.
-    -Doors mechanic.
-    -spawn enemies.
-    -Camera mechanic.
-    -MiniMap
