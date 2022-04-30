@@ -16,25 +16,22 @@ public class DungeonGenerator : MonoBehaviour{
     }
 
     IEnumerator SpawnDungeon(){
-        while(true){
-            var iteration = 0;
-            rooms.Clear();
-            roomPoints.Clear();
-            removePointIndex.Clear();
-            numberOfRooms = 10;
-            int childs = roomHolder.childCount;
-            for (int i = childs - 1; i > 0; i--){
-                Destroy(roomHolder.GetChild(i).gameObject);
-            }
-            AddRoom(Vector2Int.zero);
-
-            while(iteration <= numberOfRooms){
-                iteration++;
-                Cycle();
-            }
-            RightRoomSpawn();
-            yield return new WaitForSeconds(1f);
+        var iteration = 0;
+        rooms.Clear();
+        roomPoints.Clear();
+        removePointIndex.Clear();
+        numberOfRooms = 10;
+        int childs = roomHolder.childCount;
+        for (int i = childs - 1; i > 0; i--){
+            Destroy(roomHolder.GetChild(i).gameObject);
         }
+        AddRoom(Vector2Int.zero);
+
+        while(iteration < 10){
+            iteration++;
+            Cycle();
+        }
+        RightRoomSpawn();
         yield return new();
     }
     List<Vector2Int> roomPoints = new();
